@@ -319,3 +319,7 @@ h3 { font-size: 1.25rem; margin-bottom: 12px; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+.awards-heading { margin-top: 72px; scroll-margin-top: 84px; }
+.awards-heading + .card-grid .card { min-height: auto; }
+.awards-heading + .card-grid .card-number { margin-bottom: 24px; }
